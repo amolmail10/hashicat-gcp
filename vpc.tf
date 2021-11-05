@@ -6,7 +6,7 @@ module "network" {
   project_id =  var.project
   subnets = [
   {
-    subnet_name   = "amol-subnet"
+    subnet_name   = "amol-terrartrain-subnet"
     subnet_ip     = "10.100.10.0/24"
     subnet_region = var.region
   }
